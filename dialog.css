@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+dialog {
+  padding: 1rem 3rem;
+  background: var(--coral);
+  max-width: 64ch;
+  margin: 2rem auto;
+  background-color: white;
+}
+
+.x {
+  filter: grayscale(1);
+  border: none;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0.4rem;
+}
+
+body {
+  background-color: var(--blue);
+  font-family: system-ui, serif;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+main {
+  max-width: 500px;
+  margin: 2rem auto;
+  display: grid;
+}
+
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: var(--coral);
+  border: 2px solid;
+  border-radius: 0.5rem;
+  justify-self: end;
+}
